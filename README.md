@@ -4,4 +4,4 @@ This portfolio contains my web development projects. The portfolio itself is a p
 
 * [View my portfolio](portfolio.html)
 
-* [View the source](https://github.com/fbgabriana/fbgabriana.github.io/tree/master/portfolio)
+* [View the source](https://github.com/fbgabriana/portfolio)
