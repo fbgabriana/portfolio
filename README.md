@@ -1,4 +1,4 @@
-## [fbgabriana.github.io](/) / [portfolio](/portfolio/)
+## [fbgabriana.github.io](/ "Bamm's KodeGo Repository") / [portfolio](/portfolio/)
 
 # Portfolio Project for KodeGo
 
