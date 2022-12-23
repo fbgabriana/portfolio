@@ -357,8 +357,9 @@
 		// Create a new portfolio and add items to them
 		portfolio = new Portfolio();
 		portfolio.addItem("harmonicmeans", "Harmonic Means", "https://fbgabriana.github.io/harmonicmeans/home.html");
-		portfolio.addItem("philastronomy", "Philippine Astronomy", "https://fbgabriana.github.io/philippine-astronomy/home/");
 		portfolio.addItem("gg-tournament", "GG Tournament", "https://fbgabriana.github.io/gg-tournament/gg-tournament.html");
+		portfolio.addItem("philastronomy", "Philippine Astronomy", "https://fbgabriana.github.io/philippine-astronomy/home/");
+		portfolio.addItem("brgykodego", "Barangay KodeGo", "https://fbgabriana.github.io/brgykodego/");
 		portfolio.addItem("cyberhomies", "Cyber Homies", "https://fbgabriana.github.io/miniproject2/home.html");
 		portfolio.addItem("instructions", "Instructions");
 
@@ -369,18 +370,25 @@
 			<p>A homepage for an amateur band. Harmonic Means is a musical group founded by people with a love for both music and mathematics, thus their name.</p> \
 			<p>The site uses a simple HTML/CSS template built with a mobile-first responsive design. Works on all screen resolutions.</p>"
 
-		portfolio["philastronomy"].content = "<p>An astronomy magazine with the Philippines in focus.</p>";
-		portfolio["philastronomy"].thumb = "philastronomy.png";
-		portfolio["philastronomy"].infotext = " \
-			<p>Read astronomy news, play with JavaScript-powered star maps, explore the various sections in a well-planned and easy to use magazine format.</p> \
-			<p>This web magazine provides astronomical information and tools that are of value to local astronomy enthusiasts.</p>"
-
 		portfolio["gg-tournament"].content = "<p>16‑player double elimination tournament: a JavaScript app to keep track of matches.</p>";
 		portfolio["gg-tournament"].thumb = "gg-tournament.png";
 		portfolio["gg-tournament"].infotext = " \
 			<p>A single-page HTML5/JavaScript application that was developed to keep track of matches at a board game tournament held at a school intramurals.</p> \
 			<p>The tournament used a 16‑player double elimination format: losers move to a losers' bracket; losing a second time results in elimination.</p> \
 			<p>The tournament took place on Nov 2, 2022 in Baguio City, Philippines.</p>";
+
+		portfolio["philastronomy"].content = "<p>An astronomy magazine with the Philippines in focus.</p>";
+		portfolio["philastronomy"].thumb = "philastronomy.png";
+		portfolio["philastronomy"].infotext = " \
+			<p>Read astronomy news, play with JavaScript-powered star maps, explore the various sections in a well-planned and easy to use magazine format.</p> \
+			<p>This web magazine provides astronomical information and tools that are of value to local astronomy enthusiasts.</p>"
+
+		portfolio["brgykodego"].content = "<p>An interactive barangay content management system.</p>";
+		portfolio["brgykodego"].thumb = "brgykodego.png";
+		portfolio["brgykodego"].infotext = " \
+			<p>Barangay KodeGo is a Content Management System for Philippine barangays, with built-in bulletin news feed and community logbook.</p> \
+			<p>Written entirely in NodeJS, it features the use of technologies like user authentication, bcrypt hash encryption, and asynchronous client-server communications. Data is stored and read from a MySQL database.</p> \
+			<p>Includes a working demo served as a Heroku application.</p>";
 
 		portfolio["cyberhomies"].content = "<p>Cyber Homies — our team of creative web developers.</p>";
 		portfolio["cyberhomies"].thumb = "cyberhomies.png";
